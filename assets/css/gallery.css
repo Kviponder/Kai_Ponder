@@ -1,0 +1,22 @@
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--dark-blue);
+} 
+
+.gallery img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 20px var(--dark-blue);
+}

@@ -1,0 +1,29 @@
+#aboutMe {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  #aboutMe h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #aboutMe p {
+    margin-bottom: 20px;
+  }
+  
+  #aboutMe a {
+    color: #6b45c5;
+    text-decoration: none;
+  }
+  
+  #aboutMe a:hover {
+    text-decoration: underline;
+  }
+  
