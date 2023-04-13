@@ -24,7 +24,16 @@ h2 {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 h1 {
   font-family: Montserrat, sans-serif;
   font-size: 36px;
@@ -50,6 +59,11 @@ header {
   color: var(--background-color);
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1px 10px;
 }
 /*
 header ul {
@@ -90,6 +104,8 @@ nav {
   align-items: center;
   background-color: var(--accent-color-2);
   padding: 10px;
+  margin: 2px 10px;
+  box-shadow: 0 8px 12px -4px #333;
 }
 
 header h1 {
@@ -109,9 +125,6 @@ header p {
   font-size: 1.2rem;
 }
 
-  
-
-
 nav a {
   flex-basis: 12%;
   color: var(--background-color);
@@ -127,6 +140,14 @@ nav a:hover {
   background-color: var(--primary-color-2);
   color: var(--accent-color-2);
   scale: 1.1;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border-radius: 22px;
+  margin: 10px;
+  border: 2px solid var(--accent-color-2);
 }
 
 #banner {
@@ -149,6 +170,7 @@ nav a:hover {
   box-shadow: 0 8px 12px -4px black;
   color: black;
   width: 75%;
+  text-align: left;
 }
 
 .image {
@@ -165,6 +187,29 @@ nav a:hover {
   margin-top: 10px;
   text-transform: uppercase;
 }
+/* .skills {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.skill {
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.skill a {
+  display: block;
+  background-color: #88D498;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  color: #fff;
+} */
+
 .skills {
   background-color: var(--accent-color-2);
   color: var(--primary-color);
@@ -175,6 +220,27 @@ nav a:hover {
   justify-content: space-between;
 }
 
+.skills {
+  padding: 16px;
+  margin: 32px auto;
+  width: 40%;
+  list-style: none;
+  font: 100% Arial, sans-serif;
+  border: 1px solid #ddd;
+  line-height: 1.5;
+}
+
+.skill {
+  display: inline;
+  text-transform: lowercase;
+  padding: 0 6px;
+}
+
+.skill a {
+  text-decoration: none;
+  position: relative;
+}
+/* 
 .skills {
   background-color: var(--accent-color-2);
   color: var(--primary-color);
@@ -193,7 +259,7 @@ nav a:hover {
   margin: 10px;
   width: 20%;
   box-shadow: 0 8px 12px -4px black;
-}
+} */
 
 #tagline {
   background-color: var(--accent-color-3);
@@ -225,9 +291,8 @@ nav a:hover {
   border: 2px solid var(--accent-color-3);
   border-bottom: 15px solid var(--accent-color-3);
   border-radius: 10px;
-  padding: 20px;
   margin: 20px;
-  width: 300px;
+  width: 500px;
   text-align: center;
   justify-content: space-around;
   min-height: 150px;
@@ -246,6 +311,8 @@ nav a:hover {
 .latestProject {
   width: 600px;
   height: 300px;
+  padding: 5px 0 50px 0;
+  margin: 20px;
 }
 
 .caption {
@@ -263,8 +330,8 @@ nav a:hover {
 
 .recentProject:hover .caption {
   height: 100px;
+  border-top: 2px solid var(--primary-color);
 }
-
 
 footer {
   width: 100%;
@@ -316,8 +383,6 @@ footer div p a {
 #overNight .serviceName {
   color: var(--accent-color-3);
 } */
-
-
 
 .socialIcon:before {
   font-family: "Font Awesome 5 Brands";
