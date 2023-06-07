@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #9c4668;
-  --primary-color-2: #d57b93;
-  --accent-color-2: #e9b6bd;
-  --accent-color-3: #f2d9d9;
-  --background-color: #f8edeb;
+  --primary-color: #87ceeb;      /* Sky Blue */
+  --primary-color-2: #add8e6;    /* Light Blue */
+  --accent-color-2: #1f3552;     /* Dark Blue */
+  --accent-color-3: #afafaf;     /* Purple */
+  --background-color: #f8edeb;   /* Light Cream */
 }
 ::selection {
   background-color: var(--accent-color-2);
@@ -144,12 +144,28 @@ nav a:hover {
 
 img {
   width: 90%;
-  height: auto;
+  height: fit-content;
   border-radius: 22px;
   margin: 10px;
   border: 2px solid var(--accent-color-2);
 }
 
+#tester {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--background-color);
+  box-shadow: 0 8px 12px -4px black;
+  color: black;
+  width: 75%;
+  text-align: left;
+  
+
+}
 #banner {
   background-color: var(--primary-color);
   height: auto fit-content;
@@ -157,6 +173,15 @@ img {
   margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
+}
+
+#banner {
+  position: relative;
+}
+
+#banner svg {
+  position: absolute;
+ 
 }
 
 #welcomeBox {
