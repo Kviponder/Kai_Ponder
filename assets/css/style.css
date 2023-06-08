@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #87ceeb;      /* Sky Blue */
-  --primary-color-2: #add8e6;    /* Light Blue */
-  --accent-color-2: #1f3552;     /* Dark Blue */
-  --accent-color-3: #afafaf;     /* Purple */
-  --background-color: #f8edeb;   /* Light Cream */
+  --primary-color: #87ceeb; /* Sky Blue */
+  --primary-color-2: #add8e6; /* Light Blue */
+  --accent-color-2: #1f3552; /* Dark Blue */
+  --accent-color-3: #afafaf; /* Purple */
+  --background-color: #f8edeb; /* Light Cream */
 }
 ::selection {
   background-color: var(--accent-color-2);
@@ -65,38 +65,6 @@ header {
   justify-content: space-between;
   margin: 1px 10px;
 }
-/*
-header ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-header ul li {
-  font-size: 30px;
-  font-style: oblique;
-  text-decoration: none;
-  width: 200px;
-  background-color: var(--accent-color-2);
-  color: var(--accent-color-3);
-  padding: 15px;
-  margin: 2px;
-  border-radius: 50%;
-}
- header ul li a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-header ul li:hover {
-  background-color: var(--accent-color-3);
-  color: var(--accent-color-3);
-  border: 2px solid var(--primary-color);
-  scale: 1.1;
-  box-shadow: 0px 5px 12px var(--accent-color-3);
-}
-header ul li a {
-  text-decoration: none;
-} */
 
 nav {
   display: flex;
@@ -163,8 +131,6 @@ img {
   color: black;
   width: 75%;
   text-align: left;
-  
-
 }
 #banner {
   background-color: var(--primary-color);
@@ -181,7 +147,6 @@ img {
 
 #banner svg {
   position: absolute;
- 
 }
 
 #welcomeBox {
@@ -296,9 +261,9 @@ img {
 #tagline h2 {
   height: fit-content;
   width: fit-content;
-  padding: 6px;
+  padding: 16px;
   margin: 0 auto;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color-2);
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -385,29 +350,7 @@ footer div p a {
 #instagram {
   background-color: var(--accent-color-3);
 }
-/* 
-#logo {
-  background-image: url(../assets/images/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  height: 150px;
-  width: 150px;
-  margin: 20px auto;
-  }
-   */
-
-/* #halfDay .serviceName {
-  color: var(--accent-color-1);
-}
-
-#fullDay .serviceName {
-  color: var(--accent-color-2);
-}
-
-#overNight .serviceName {
-  color: var(--accent-color-3);
-} */
+/* /
 
 .socialIcon:before {
   font-family: "Font Awesome 5 Brands";
